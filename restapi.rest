@@ -1,0 +1,28 @@
+GET http://localhost:3333/api/inbound/unwind
+Content-Type: application/json
+
+{
+    "docNo":"WH/IN/2020/01/00001",
+    "vendor":"Kimia Farma",
+    "purchaseDate":"2020/06/04",
+    "products":[
+        {
+            "sku":"2300402020",
+            "name":"Paramex Box",
+            "weight":"6g",
+            "height":"5cm",
+            "width":"10cm",
+            "length":"5cm",
+            "qty":10
+        },
+        {
+            "sku":"2300402021",
+            "name":"Inza Box",
+            "weight":"6g",
+            "height":"5cm",
+            "width":"10cm",
+            "length":"5cm",
+            "qty":15
+        }
+    ]
+}
